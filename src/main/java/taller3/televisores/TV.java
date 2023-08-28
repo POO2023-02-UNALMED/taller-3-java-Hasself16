@@ -4,7 +4,7 @@ public class TV {
 	private static int numTV=0;
 	private Marca marca;
 	private int canal;
-	private int precio;
+	private double precio;
 	private boolean estado;
 	private int volumen;
 	private Control control;
@@ -32,10 +32,10 @@ public class TV {
 			this.canal=numero;
 		}
 	}
-	public int getPrecio() {
+	public double getPrecio() {
 		return this.precio;
 	}
-	public void setPrecio(int precio) {
+	public void setPrecio(double precio) {
 		this.precio=precio;
 	}
 	public int getVolumen() {
