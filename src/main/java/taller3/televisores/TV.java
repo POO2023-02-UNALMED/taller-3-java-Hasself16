@@ -18,11 +18,11 @@ public class TV {
         this.control = null;
         numTV++;
 	}
-	public String getMarca() {
-		return this.marca.nombre;
+	public Marca getMarca() {
+		return this.marca;
 	}
-	public void setMarca(String marca) {
-		this.marca.nombre=marca;
+	public void setMarca(Marca marca) {
+		this.marca=marca;
 	}
 	public int getCanal() {
 		return this.canal;
